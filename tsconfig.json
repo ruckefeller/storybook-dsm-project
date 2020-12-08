@@ -6,5 +6,12 @@
 */
 {
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./projects/random/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/random/tsconfig.spec.json"
+    }
+]
 }
