@@ -1,0 +1,36 @@
+[
+    {
+        "name": "PageComponent",
+        "type": "typeof PageComponent",
+        "description": "",
+        "constructors": [
+            {
+                "parameters": [],
+                "returnType": "PageComponent",
+                "description": ""
+            }
+        ],
+        "props": [
+            {
+                "name": "user",
+                "description": "",
+                "type": "unknown"
+            },
+            {
+                "name": "onLogin",
+                "description": "",
+                "type": "EventEmitter<Event>"
+            },
+            {
+                "name": "onLogout",
+                "description": "",
+                "type": "EventEmitter<Event>"
+            },
+            {
+                "name": "onCreateAccount",
+                "description": "",
+                "type": "EventEmitter<Event>"
+            }
+        ]
+    }
+]

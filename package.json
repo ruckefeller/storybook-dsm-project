@@ -22,6 +22,7 @@
     "@angular/platform-browser": "~10.0.6",
     "@angular/platform-browser-dynamic": "~10.0.6",
     "@angular/router": "~10.0.6",
+    "@microsoft/tsdoc": "^0.13.0",
     "@storybook/addon-docs": "^6.1.10",
     "@storybook/addons": "^6.1.10",
     "rxjs": "~6.5.5",
@@ -55,6 +56,7 @@
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
+    "typedoc": "^0.20.23",
     "typescript": "~3.9.5"
   }
 }

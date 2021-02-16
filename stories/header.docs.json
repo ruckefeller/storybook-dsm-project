@@ -1,0 +1,36 @@
+[
+    {
+        "name": "HeaderComponent",
+        "type": "typeof HeaderComponent",
+        "description": "",
+        "constructors": [
+            {
+                "parameters": [],
+                "returnType": "HeaderComponent",
+                "description": ""
+            }
+        ],
+        "props": [
+            {
+                "name": "user",
+                "description": "",
+                "type": "unknown"
+            },
+            {
+                "name": "onLogin",
+                "description": "",
+                "type": "EventEmitter<Event>"
+            },
+            {
+                "name": "onLogout",
+                "description": "",
+                "type": "EventEmitter<Event>"
+            },
+            {
+                "name": "onCreateAccount",
+                "description": "",
+                "type": "EventEmitter<Event>"
+            }
+        ]
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "name": "ButtonComponent",
+        "type": "typeof ButtonComponent",
+        "description": "",
+        "constructors": [
+            {
+                "parameters": [],
+                "returnType": "ButtonComponent",
+                "description": ""
+            }
+        ],
+        "props": [
+            {
+                "name": "primary",
+                "description": "Is this the principal call to action on the page?",
+                "type": "boolean"
+            },
+            {
+                "name": "backgroundColor",
+                "description": "What background color to use",
+                "type": "string"
+            },
+            {
+                "name": "size",
+                "description": "How large should the button be?",
+                "type": "\"small\" | \"medium\" | \"large\""
+            },
+            {
+                "name": "label",
+                "description": "Button contents",
+                "type": "string"
+            },
+            {
+                "name": "onClick",
+                "description": "Optional click handler",
+                "type": "EventEmitter<Event>"
+            },
+            {
+                "name": "classes",
+                "description": "",
+                "type": "string[]",
+                "signatures": []
+            },
+            {
+                "name": "someMethod",
+                "description": "",
+                "type": "(x: any, y: any) => void",
+                "signatures": [
+                    {
+                        "parameters": [
+                            {
+                                "name": "x",
+                                "description": "",
+                                "type": "any"
+                            },
+                            {
+                                "name": "y",
+                                "description": "",
+                                "type": "any"
+                            }
+                        ],
+                        "returnType": "void",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    }
+]
